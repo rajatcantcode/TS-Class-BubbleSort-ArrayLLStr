@@ -2,10 +2,10 @@
   "name": "ts_sortds",
   "version": "1.0.0",
   "description": "- **IT'S MADE TO RUN ON NODE**",
-  "main": "index.js",
+  "main": "GoodApproach.js",
   "scripts": {
     "start:build": "tsc -w",
-    "start:run": "nodemon build/index.js",
+    "start:run": "nodemon build/GoodApproach.js",
     "start": "concurrently npm:start:*"
   },
   "keywords": [],
