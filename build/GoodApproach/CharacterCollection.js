@@ -1,8 +1,8 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.CharacterCollection = void 0;
-const GoodApproach_1 = require("../GoodApproach");
-class CharacterCollection extends GoodApproach_1.Sorter {
+const Sorter_1 = require("./Sorter");
+class CharacterCollection extends Sorter_1.Sorter {
     constructor(data) {
         super();
         this.data = data;

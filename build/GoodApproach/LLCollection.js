@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.LinkedList = exports.Node = void 0;
-const GoodApproach_1 = require("../GoodApproach");
+const Sorter_1 = require("./Sorter");
 class Node {
     constructor(data) {
         this.data = data;
@@ -9,7 +9,7 @@ class Node {
     }
 }
 exports.Node = Node;
-class LinkedList extends GoodApproach_1.Sorter {
+class LinkedList extends Sorter_1.Sorter {
     constructor() {
         super(...arguments);
         // Here we don't need to define a constructor because child class LL does't have it's own constructor

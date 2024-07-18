@@ -1,4 +1,4 @@
-import { Sorter } from "../GoodApproach";
+import { Sorter } from "./Sorter";
 
 export class Node {
   next: Node | null = null;

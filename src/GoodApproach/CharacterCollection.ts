@@ -1,4 +1,4 @@
-import { Sorter } from "../GoodApproach";
+import { Sorter } from "./Sorter";
 
 export class CharacterCollection extends Sorter {
   constructor(public data: string) {
